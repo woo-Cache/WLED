@@ -15,7 +15,7 @@ class SHT;
 class ShtUsermod : public Usermod
 {
   private:
-    bool enabled = false;
+    bool enabled = true;
     bool firstRunDone = false;
     bool initDone = false;
     bool haMqttDiscovery = false;
